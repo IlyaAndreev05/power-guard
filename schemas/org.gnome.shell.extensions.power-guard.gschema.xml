@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.power-guard" path="/org/gnome/shell/extensions/power-guard/">
+    <key name="lid-action" type="s">
+      <default>'ignore'</default>
+      <summary>Action when the laptop lid closes</summary>
+      <description>One of ignore, lock, suspend, hibernate, hybrid-sleep, suspend-then-hibernate, power-off, or reboot.</description>
+    </key>
+    <key name="restore-state" type="b">
+      <default>true</default>
+      <summary>Restore the selected lid action on login</summary>
+      <description>When disabled, this session starts with Do nothing while retaining the selected action.</description>
+    </key>
+  </schema>
+</schemalist>

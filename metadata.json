@@ -1,0 +1,9 @@
+{
+  "uuid": "power-guard@ilya",
+  "name": "Power Guard",
+  "description": "GNOME Shell Quick Settings menu for choosing what happens when a laptop lid closes.",
+  "version": 1,
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.power-guard",
+  "url": "https://github.com/IlyaAndreev05/power-guard"
+}
